@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal Info</legend>
+            <label>
+                Full Name: <input type="text" name="full-name">
+            </label>
+            <br />
+            <label>
+                Email Address: <input type="text" name="Email">
+            </label>
+            <br />
+            <label>
+                Phone Number: <input type="text" name="Number">
+            </label>
+            <br />
+            <label>
+                Message: <textarea name="message"></textarea>
+            </label>
+            <br />
+            <label>
+                Gender: <input type="radio" name="Male"> Male
+                <input type="radio" name="Female"> Female
+            </label>
+            <br />
+            <label>
+                Preferred Contact Method:
+                <select name="method">
+                    <option value="email">Email</option>
+                    <option value="number">Number</option>
+                    <option value="facebook">Facebook</option>
+                    <option value="instagram">Instagram</option>
+                </select>
+            </label>
+            <br />
+            <label>
+                Areas of Interest: 
+                <input type="checkbox"> Programming
+                <input type="checkbox"> Design
+                <input type="checkbox"> Writing
+            </label>
+            <br />
+            <button>Submit</button>
+            <input type="button" value="Reset">
+        </fieldset>
+    </form>
+</body>
+
+</html>
