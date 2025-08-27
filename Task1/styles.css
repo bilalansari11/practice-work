@@ -1,0 +1,50 @@
+@font-face {
+    font-family: poppins;
+    src: url(assets/font/Poppins/Poppins-Medium.ttf);
+}
+body{
+    background-color: #eff8ff;
+    margin: 60px;
+}
+div{
+    width: 40%;
+    background-color: #ffffff;
+    border: 2px solid #1882a7;
+    padding: 20px;
+}
+h1{
+    color: #323533;
+    font-family: poppins;
+    text-transform: uppercase;
+    font-style: oblique;
+    text-indent: 30px;
+    text-shadow: 1px 1px lightgray;
+    line-height: 70px;
+}
+p{
+    font-size: 18px;
+    word-spacing: 3px;
+    font-weight: 500;
+    font-family: sans-serif;
+    line-height: 30px;
+    text-indent: 30px;
+}
+a{
+    text-decoration: none;
+    color: #a50b67;
+}
+p::first-line{
+    font-style: italic;
+}
+p::first-letter{
+    font-size: 2em;
+    color: #1882a7;
+    font-weight: bold;
+}
+a:visited{
+  color: blueviolet;  
+}
+input:hover{
+    border: 2px solid black;
+    border-radius: 2px;
+}
