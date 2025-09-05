@@ -1,0 +1,192 @@
+@font-face {
+    font-family: Incon;
+    src: url(assets/fonts/Inconsolata/Inconsolata-VariableFont_wdth\,wght.ttf);
+}
+*{
+    margin: 0;
+}
+
+/*Header Css*/
+.head{
+    background-color: #008cba;
+    width: auto;
+    padding: 10px;
+    border-bottom: 4px solid #025e75;
+    
+}
+.name h1{
+    color: #fffdf8;
+    text-align: center;
+    font-family: Incon;
+    text-transform: uppercase;
+    font-style: oblique;
+    text-shadow: 1px 1px #1f1f1f;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.intro ul{
+    padding-left: 30em;
+}
+.intro ul li{
+    color: #fffdf8;
+    list-style: none;
+    display: inline;
+    padding: 2px;
+    font-family: Incon;
+    font-weight: 300;
+    text-shadow: 1px 1px #1f1f1f;
+}
+.intro ul li:first-child{
+    border-right: 1px solid lightgrey;
+    padding-right: 5px;
+}
+.nav>ul{
+    padding-left: 32em;
+    margin-top: 20px;
+    list-style: none;
+}
+.nav>ul>li{
+    display: inline;
+    padding: 10px;
+}
+.nav>ul>li>a{
+    color: #fffdf8;
+    text-decoration: none;
+    font-family: Incon;
+    font-weight: 700;
+    text-shadow: 1px 1px #1f1f1f;    
+}
+ /* .nav>ul>li{
+    color: #fffdf8;
+    list-style: none;
+    display: inline;
+    padding: 10px;
+    font-family: Incon;
+    font-weight: 700;
+    text-shadow: 1px 1px #1f1f1f;
+} */
+
+/*About Css*/
+#about{
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 12px;
+    margin-top: 30px;
+}
+#about h2{
+    border-bottom: 2px solid #008cba;
+    color: #008cba;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: larger;
+    text-indent: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+/* .about hr{
+    height: 1px;
+    background-color: #008cba;
+} */
+#about p{
+    font-family: sans-serif;
+    text-indent: 30px;
+    padding: 10px;
+    line-height: 36px;
+}
+#about p::first-letter{
+    font-size: 30px;
+    font-weight: 700;
+    color: #008cba;
+}
+#about p::first-line{
+    font-style: italic;
+}
+
+/*Projects Css*/
+
+#projects {
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 12px;
+    margin-top: 30px;
+    padding-bottom: 25px;
+}
+#projects h2{
+    border-bottom: 2px solid #008cba;
+    color: #008cba;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: larger;
+    text-indent: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+/* .projects hr{
+    height: 1px;
+    background-color: #008cba;
+} */
+#projects ul{
+    margin-top: 20px;
+}
+#projects ul li{
+    font-family: sans-serif;
+    line-height: 30px;
+    /* font-weight: 600; */
+}
+
+/*Contact Css*/
+#contact{
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 12px;
+    margin-top: 30px;
+    padding-bottom: 18px;
+}
+#contact h2{
+    border-bottom: 2px solid #008cba;
+    color: #008cba;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: larger;
+    text-indent: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+/* #contact p{
+    display: inline;
+    margin-left: 30px;
+    line-height: 10px;
+}
+.msg{
+    margin-left: 10px;
+}
+.conn{
+    margin-left: 200px;
+} */
+.text{
+    display: flex;
+}
+.text-1{
+    margin: 10px;
+
+}
+.text-1 p{
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+.text-2{
+    margin: 10px;
+}
+.text-2 p{
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+text:active{
+    border: 2px solid black;
+}
