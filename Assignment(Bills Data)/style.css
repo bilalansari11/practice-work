@@ -1,0 +1,30 @@
+body{
+    /* margin: 0; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    width: 550px;
+    border: 1px solid black;
+}
+th, td{
+    padding: 10px;
+}
+th{
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 90%;
+    border-bottom: 2px solid #111111;
+    text-align: left;
+}
+.mid td{
+    border-bottom: 1px solid black;
+}
+.cash{
+    text-align: right;
+}
+.null{
+    text-align: center;
+}
+tr:hover{
+    background-color: lightgrey;
+} 
